@@ -1,0 +1,1 @@
+django-admin createproject University_Course_Management

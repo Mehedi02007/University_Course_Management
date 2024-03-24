@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      {% block title %}University Management System{% endblock %}
+    </title>
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'list_courses' %}">List of Courses</a> |
+      <a href="{% url 'list_students' %}">List of Students</a>
+    </nav>
+    
+    {% block content %} 
+    
+    {% endblock %}
+  </body>
+</html>

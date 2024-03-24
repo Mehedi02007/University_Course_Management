@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ student.name }} Details{% endblock %}
+
+{% block content %}
+<h2>Student Details</h2>
+<p>Name: {{ student.name }}</p>
+<p>Email: {{ student.email }}</p>
+<p>Date of Birth: {{ student.date_of_birth }}</p>
+<p>Enrolled Course: <a href="{% url 'course_detail' student.course.id %}">{{ student.course.name }}</a></p>
+{% endblock %}
