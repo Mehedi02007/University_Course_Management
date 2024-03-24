@@ -1,1 +1,4 @@
-django-admin createproject University_Course_Management
+django-admin createproject university_management .
+
+py manage.py createapp student_courses
+
