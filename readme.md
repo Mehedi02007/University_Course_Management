@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Mehedi02007/University_Course_Management-main.git
+   git clone https://github.com/Mehedi02007/University_Course_Management.git
    ```
 
    ```bash
